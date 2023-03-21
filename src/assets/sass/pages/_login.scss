@@ -1,0 +1,18 @@
+.pageLogin {
+
+  &__form {
+    margin: 5% auto;
+    max-width: 400px;
+    &-help{
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+      background: $secondary-color;
+      li{
+        margin: 10px 0;
+        font-size: 1.2em;
+        color: $primary-color;
+      }
+    }
+  }
+}

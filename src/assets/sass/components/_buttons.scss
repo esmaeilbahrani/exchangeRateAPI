@@ -1,0 +1,24 @@
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(80, 80, 80, 0.14);
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  &.btn-primary {
+    background: $primary-color;
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  &.btn-light {
+    background: #ffffff;
+    color: #333;
+    transition: 0.3s;
+  }
+}

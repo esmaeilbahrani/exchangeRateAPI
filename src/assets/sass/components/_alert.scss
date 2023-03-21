@@ -1,0 +1,21 @@
+.alert {
+  background: #efefef;
+  color: #999;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 40px 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+
+  b {
+    margin-top: 10px;
+    display: block;
+    font-size: 1.2em;
+  }
+
+  &.alert-red {
+    background: rgba(red, 0.1);
+    color: red;
+  }
+}

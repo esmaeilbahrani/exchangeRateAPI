@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+svg {
+  &:focus {
+    outline: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  direction: ltr;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: rgba(225, 231, 244, 1);
+  background: linear-gradient(90deg, #F8F6FF 0%, #EAEEF7 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 40px #758199 inset !important;
+  border: 0;
+  -webkit-text-fill-color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.page {
+  font-size: 14px;
+  padding: 0 40px;
+
+  &__title {
+    padding-top: 40px;
+    text-align: center;
+
+    &-caption {
+      font-weight: 600;
+      font-size: 2.5em;
+      padding: 15px 0;
+    }
+
+    &-text {
+      font-size: 1.5em;
+      font-weight: 400;
+      color: #666;
+    }
+  }
+}

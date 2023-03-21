@@ -1,0 +1,58 @@
+.pageExchange {
+
+  &__chart {
+    margin: 4% auto;
+    max-width: 1000px;
+
+    .form {
+      display: grid;
+      align-items: baseline;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+
+      .btn {
+        padding: 20px;
+        margin: 0;
+      }
+
+      input, .btn {
+        margin: 0;
+      }
+    }
+
+    .chart {
+      margin-top: 5rem;
+    }
+
+    .histories {
+      margin: 40px 0;
+
+      .caption{
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #666;
+        padding: 10px 0;
+      }
+      .item {
+        display: inline-block;
+        padding: 10px;
+        background: $secondary-color;
+        color: $primary-color;
+        font-weight: 500;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-bottom: 15px;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          color: $secondary-color;
+          background: $primary-color;
+        }
+      }
+    }
+
+
+  }
+}

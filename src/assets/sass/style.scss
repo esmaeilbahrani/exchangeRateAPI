@@ -1,0 +1,33 @@
+//1. Core variables and mixins
+@import "sass-utils/variables";
+@import "sass-utils/helpers";
+@import "sass-utils/animations";
+
+//------------------------------------
+//1. Layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/main';
+
+//------------------------------------
+//2. Vendors  CSS
+@import "vendors/normalize";
+@import "vendors/grid";
+
+//------------------------------------
+//3. Base Stuffs
+@import "base/fonts";
+@import "base/typography";
+
+//------------------------------------
+//4. Components
+@import "components/buttons";
+@import "components/forms";
+@import "components/spinner";
+@import "components/alert";
+
+//------------------------------------
+//5. Pages
+@import "pages/login";
+@import "pages/exchange";
+

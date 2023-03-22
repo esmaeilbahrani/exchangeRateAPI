@@ -2,6 +2,9 @@
 
 This is a web application that enables users to retrieve exchange rates between two currencies and visualize them as a graph. Users must log in to access the input screen, where they can input the From and To currency symbols and choose their exchange rate preference. The exchange rate data is retrieved from the [Alpha Vantage API](https://www.alphavantage.co/), and the API query is generated based on user input.
 
+## Screenshot
+![Screenshot of my project](/screenshot.png)
+
 ## Installation
 
 To install and run the Vue project, follow the steps below:
